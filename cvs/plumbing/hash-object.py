@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 import argparse
 
 
@@ -5,7 +7,7 @@ def parse_args():
     parser = argparse.ArgumentParser()
     parser.add_argument("-t",
                         action="store",
-                        nargs=,
+                        nargs=1,
                         const=,
                         default=,
                         type=,
